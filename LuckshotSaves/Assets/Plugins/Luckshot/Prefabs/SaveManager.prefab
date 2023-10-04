@@ -1,0 +1,135 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &2944882325845980869
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2944882325845980866}
+  - component: {fileID: 2944882325845980867}
+  - component: {fileID: 6971878191884883820}
+  - component: {fileID: 6724656669589006844}
+  - component: {fileID: 6037968061212474068}
+  - component: {fileID: 5088067953186565246}
+  m_Layer: 0
+  m_Name: SaveManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2944882325845980866
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2944882325845980869}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2944882325845980867
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2944882325845980869}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7ae6bff460f1087448167f8957d7ec54, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &6971878191884883820
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2944882325845980869}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7c3322453089a264c97afc59c9abef18, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  parentItem: {fileID: 0}
+  itemData: {fileID: 11400000, guid: c65b500c4372b984faad3791efdc1fd6, type: 2}
+  ColorLens:
+    cachedResult: {r: 0, g: 0, b: 0, a: 0}
+    activeRequests: []
+    evaluateValues: []
+  NameLens:
+    cachedResult: 
+    activeRequests: []
+    evaluateValues: []
+  rigidbody: {fileID: 0}
+  defaultUseGravity: 1
+  defaultKinematic: 0
+  manualGravity: 0
+  UseGravityLens:
+    cachedResult: 0
+    activeRequests: []
+    evaluateValues: 
+  KinematicLens:
+    cachedResult: 0
+    activeRequests: []
+    evaluateValues: 
+  DragLens:
+    cachedResult: 0
+    activeRequests: []
+    evaluateValues: []
+  AngularDragLens:
+    cachedResult: 0
+    activeRequests: []
+    evaluateValues: []
+  allColliders: []
+  ignoredColliders: []
+  visualsModel: {fileID: 0}
+  colliderModel: {fileID: 0}
+--- !u!114 &6724656669589006844
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2944882325845980869}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 085f0e2fa6dc0b840941d069946a3130, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  disableCollisionSFX: 0
+--- !u!114 &6037968061212474068
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2944882325845980869}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aca10eab2ec35c248b059c4cff022237, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  uniqueObject: {fileID: 5088067953186565246}
+--- !u!114 &5088067953186565246
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2944882325845980869}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: be7d52b04abdce54abf11d1aeefe5661, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  data: {fileID: 11400000, guid: e188b5f516554964a89e55703b3ff850, type: 2}
